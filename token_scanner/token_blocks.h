@@ -13,4 +13,4 @@ struct token
   token_struct* next;
 };
 
-token_blocks_struct* read_file();
+token_blocks_struct* read_file(const char* filepath);
