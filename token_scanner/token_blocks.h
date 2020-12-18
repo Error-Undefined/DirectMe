@@ -15,6 +15,4 @@ struct token
 
 token_blocks_struct* read_file(const char* filepath);
 
-static token_blocks_struct* split_into_statements(token_blocks_struct* lines);
-
 static char *filter_and_allocate(const char *c);
